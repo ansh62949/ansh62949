@@ -1,9 +1,9 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0B0D10&height=140&section=header&text=Ansh%20Pathak&fontSize=42&fontColor=FFB000&fontAlign=50&fontAlignY=40&desc=AI%20%26%20Backend%20Engineer&descSize=18&descColor=F5F7FA&descAlign=50&descAlignY=70&stroke=FFB000&strokeWidth=1.5" alt="Ansh Pathak Banner"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0B0D10&height=130&section=header&text=ANSH%20PATHAK&fontSize=34&fontColor=FFB000&fontAlign=50&fontAlignY=38&desc=AI%20%26%20Backend%20Engineer%20%E2%80%A2%20Distributed%20Systems&descSize=16&descColor=F5F7FA&descAlign=50&descAlignY=70&stroke=FFB000&strokeWidth=1.5" alt="Ansh Pathak Header Banner"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2500&pause=1000&color=FFB000&background=0B0D1000&center=true&vCenter=true&width=700&height=45&lines=%24+whoami+%E2%86%92+AI+%26+Backend+Engineer;%24+build+%E2%86%92+AI+systems+%2B+distributed+infrastructure;%24+stack+%E2%86%92+Java+%E2%80%A2+Spring+Boot+%E2%80%A2+Python+%E2%80%A2+LangGraph;%24+currently+%E2%86%92+Building+PRSense+%26+scaling+microservices" alt="Typing Animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2500&pause=1000&color=FFB000&background=0B0D1000&center=true&vCenter=true&width=700&height=45&lines=%24+whoami+%E2%86%92+AI+%26+Backend+Engineer;%24+build+%E2%86%92+AI+systems+%2B+distributed+infrastructure;%24+stack+%E2%86%92+Java+%E2%80%A2+Spring+Boot+%E2%80%A2+Python+%E2%80%A2+LangGraph;%24+focus+%E2%86%92+scalable+backend+%2B+intelligent+systems" alt="Typing Animation"/>
 </div>
 
 <p align="center">
@@ -102,51 +102,85 @@ Currently pursuing my B.Tech in Computer Science (Artificial Intelligence) at GL
 
 ## `$ featured`
 
-### 🤖 PRSense — AI-Powered Repository Intelligence & PR Review Platform
+<details open>
+<summary><b>🤖 PRSense — AI-Powered Repository Intelligence & PR Review Platform</b> (LangGraph | RAG | FastAPI | Spring Boot)</summary>
+<br>
 
 > **Repository:** [ansh62949/prsense-ai](https://github.com/ansh62949/prsense-ai) &nbsp;|&nbsp; **Live Demo:** [prsense-ai.vercel.app](https://prsense-ai.vercel.app)
 
-* **Multi-Agent Orchestration:** Designed a stateful multi-agent review workflow using **LangGraph**, delegating specialized security, architectural consistency, style, and test-coverage audits across GitHub pull requests.
-* **Contextual Code Retrieval:** Engineered a RAG pipeline utilizing repository embeddings and **pgvector (HNSW, cosine similarity)** on PostgreSQL for deep semantic context.
-* **Non-Blocking Architecture:** Connected **GitHub Webhooks** via async background tasks in **FastAPI** with a **Spring Boot** service layer for continuous repository analysis.
+PRSense is a repository-aware multi-agent LLM review platform that automates pull request audits through semantic code analysis and domain-specialized AI agents.
 
-`LangGraph` &bull; `FastAPI` &bull; `RAG` &bull; `pgvector` &bull; `PostgreSQL` &bull; `Spring Boot` &bull; `GitHub Webhooks`
+- **Multi-Agent Orchestration:** Designed a stateful multi-agent review workflow using **LangGraph**, delegating specialized security, architectural consistency, style, and test-coverage audits across GitHub pull requests.
+- **Contextual Code Retrieval:** Engineered a RAG pipeline utilizing repository embeddings and **pgvector (HNSW, cosine similarity)** on PostgreSQL for deep semantic context.
+- **Non-Blocking Architecture:** Connected **GitHub Webhooks** via async background tasks in **FastAPI** with a **Spring Boot** service layer for continuous repository analysis.
 
----
+| Attribute | Details |
+| :--- | :--- |
+| **Tech Stack** | LangGraph, FastAPI, RAG, pgvector, PostgreSQL, Spring Boot, GitHub Webhooks |
+| **Architecture** | Async Event Worker + Vector Retrieval + Multi-Agent Graph Orchestration |
+| **Core Innovation** | Contextual PR diff auditing leveraging deep repository embeddings |
 
-### 🧠 CodeSphere — Distributed Online Judge & Sandbox Execution Engine
+</details>
+
+<details>
+<summary><b>🧠 CodeSphere — Distributed Online Judge & Sandbox Execution Engine</b> (Java | Spring Boot | Docker | RabbitMQ)</summary>
+<br>
 
 > **Repository:** [ansh62949/codesphere](https://github.com/ansh62949/codesphere)
 
-* **Microservices Architecture:** Architected 7 independently deployable services (API Gateway, Auth, Submission Engine, Leaderboard) in **Spring Boot** with **Eureka** service discovery.
-* **Asynchronous Queueing:** Offloaded untrusted code execution to **RabbitMQ** queues, maintaining low-latency rank queries via **Redis sorted sets**.
-* **Isolated Sandboxing:** Engineered a secure **Linux/Docker sandbox** supporting Java, Python, and C++ execution with resource quotas and fork-bomb prevention.
+CodeSphere is a microservices-based online judge platform designed to process concurrent code submissions in isolated, secure execution environments.
 
-`Java` &bull; `Spring Boot` &bull; `Docker` &bull; `RabbitMQ` &bull; `Redis` &bull; `MySQL` &bull; `MongoDB` &bull; `Eureka`
+- **Microservices Architecture:** Architected 7 independently deployable services (API Gateway, Auth, Submission Engine, Leaderboard) in **Spring Boot** with **Eureka** service discovery.
+- **Asynchronous Queueing:** Offloaded untrusted code execution to **RabbitMQ** queues, maintaining low-latency rank queries via **Redis sorted sets**.
+- **Isolated Sandboxing:** Engineered a secure **Linux/Docker sandbox** supporting Java, Python, and C++ execution with resource quotas and fork-bomb prevention.
 
----
+| Attribute | Details |
+| :--- | :--- |
+| **Tech Stack** | Java, Spring Boot, Docker, RabbitMQ, Redis, MySQL, MongoDB, Eureka |
+| **Architecture** | 7 Microservices + Asynchronous Queueing + Containerized Sandboxing |
+| **Core Innovation** | Isolated multi-language code execution engine with automated grading |
 
-### 🚗 HerRide — Event-Driven Ride-Hailing Backend & Safety System
+</details>
+
+<details>
+<summary><b>🚗 HerRide — Event-Driven Ride-Hailing Backend & Safety System</b> (Spring Boot | Apache Kafka | Redis GEO | WebSockets)</summary>
+<br>
 
 > **Repository:** [ansh62949/herride](https://github.com/ansh62949/herride) &nbsp;|&nbsp; **Live Demo:** [herride-six.vercel.app](https://herride-six.vercel.app)
 
-* **Event-Driven Messaging:** Decoupled ride matching, driver status updates, and emergency SOS escalations across 4 **Apache Kafka** topics.
-* **Spatial Discovery & WebSockets:** Implemented nearby-driver lookup using **Redis GEO** (`GEOADD`/`GEORADIUS`) and real-time emergency dashboard streaming via **WebSockets**.
-* **Security & Observability:** Secured REST/WebSocket endpoints with **JWT token rotation** and added continuous monitoring via **Prometheus & Grafana**.
+HerRide is an event-driven ride-hailing MVP engineered to provide secure real-time driver matching and immediate safety escalation for female passengers.
 
-`Spring Boot` &bull; `Apache Kafka` &bull; `Redis GEO` &bull; `PostgreSQL` &bull; `WebSockets` &bull; `JWT` &bull; `Grafana`
+- **Event-Driven Messaging:** Decoupled ride matching, driver status updates, and emergency SOS escalations across 4 **Apache Kafka** topics.
+- **Spatial Discovery & WebSockets:** Implemented nearby-driver lookup using **Redis GEO** (`GEOADD`/`GEORADIUS`) and real-time emergency dashboard streaming via **WebSockets**.
+- **Security & Observability:** Secured REST/WebSocket endpoints with **JWT token rotation** and added continuous monitoring via **Prometheus & Grafana**.
 
----
+| Attribute | Details |
+| :--- | :--- |
+| **Tech Stack** | Spring Boot, Apache Kafka, Redis GEO, PostgreSQL, WebSockets, JWT, Grafana |
+| **Architecture** | Event-Driven Microservices + Spatial Indexing + WebSockets |
+| **Core Innovation** | Sub-second real-time driver discovery and automated emergency escalation |
 
-### 🎯 AI Mock Interview Coach — Adaptive Technical Interview Simulator
+</details>
+
+<details>
+<summary><b>🎯 AI Mock Interview Coach — Adaptive Technical Interview Simulator</b> (Python | LangGraph | FastAPI | Streamlit)</summary>
+<br>
 
 > **Repository:** [ansh62949/AI-Mock-Interview-Coach](https://github.com/ansh62949/AI-Mock-Interview-Coach)
 
-* **Six-Agent StateGraph:** Constructed a modular **LangGraph** flow (Planner, Interviewer, Evaluator, Reflection, Controller, Coach) with dynamic conditional routing.
-* **Adaptive Difficulty Control:** Dynamically tuned interview question difficulty in real time based on candidate performance using structured **Pydantic** schemas.
-* **Full-Stack Validation:** Built a **FastAPI backend** and **Streamlit UI**, thoroughly verified with 13 Pytest test suites covering graph state and API handlers.
+An adaptive technical interview simulator that dynamically evaluates candidate responses and adjusts question difficulty in real time.
 
-`Python` &bull; `LangGraph` &bull; `FastAPI` &bull; `Streamlit` &bull; `Pydantic` &bull; `Pytest`
+- **Six-Agent StateGraph:** Constructed a modular **LangGraph** flow (Planner, Interviewer, Evaluator, Reflection, Controller, Coach) with dynamic conditional routing.
+- **Adaptive Difficulty Control:** Dynamically tuned interview question difficulty in real time based on candidate performance using structured **Pydantic** schemas.
+- **Full-Stack Validation:** Built a **FastAPI backend** and **Streamlit UI**, thoroughly verified with 13 Pytest test suites covering graph state and API handlers.
+
+| Attribute | Details |
+| :--- | :--- |
+| **Tech Stack** | Python, LangGraph, FastAPI, Streamlit, Pydantic, Pytest |
+| **Architecture** | 6-Agent StateGraph + Real-Time Adaptive Difficulty Controller |
+| **Core Innovation** | Dynamic interview adaptation driven by continuous candidate evaluation |
+
+</details>
 
 ---
 
@@ -192,34 +226,7 @@ GL Bajaj Institute of Technology and Management — Greater Noida, UP, India
 ## `$ github`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ansh62949&show_icons=true&hide_border=true&title_color=FFB000&icon_color=FFB000&text_color=F5F7FA&bg_color=0B0D10" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ansh62949&layout=compact&hide_border=true&title_color=FFB000&text_color=F5F7FA&bg_color=0B0D10" alt="Top Languages"/>
-</div>
-
-<br>
-
-<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ansh62949&hide_border=true&background=0B0D10&stroke=FFB000&ring=FFB000&fire=FFB000&currStreakNum=F5F7FA&sideNums=F5F7FA&currStreakLabel=FFB000&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak"/>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ansh62949&theme=onedark&no-frame=true&column=7" alt="GitHub Trophies"/>
-</div>
-
----
-
-### Contributions
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ansh62949&bg_color=0B0D10&color=FFB000&line=FFB000&point=F5F7FA&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ansh62949/ansh62949/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
 </div>
 
 ---
